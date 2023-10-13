@@ -1,0 +1,18 @@
+javascript class:-
+
+class onePlus {
+    constructor(x,y,z) {
+        this.freshX=x
+        this.freshY=y
+        this.freshZ=z
+    }
+    deleteData() {
+       var abc = prompt("who is the best football player in the world. According to you.");
+       console.log(abc)
+    }
+}
+
+var TimCook = new onePlus(1,"+",10);
+console.log(TimCook.freshX);
+TimCook.deleteData();
+
